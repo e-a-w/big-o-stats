@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-800 font-light bg-gradient-to-tr from-gray-800 to-gray-100;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  @apply transition-colors;
+}
+
+ a:focus, a:active, a:hover {
+  @apply text-gray-300;
+ }
+
+ main {
+  position: relative;
+  top: 200px;
+ }
+
+ @media only screen and (min-width: 714px) {
+  main {
+    position: relative;
+    top: 150px;
+   }
+ }
+
+ .header-nav {
+  height: 50px;
+  @apply  w-full p-3 pl-10 bg-gradient-to-r from-gray-800 to-gray-200 text-gray-100 font-bold flex justify-center items-center fixed top-0 left-0 z-10 text-center;
+ }
+
+ .card {
+  @apply bg-gradient-to-tr from-gray-300 to-gray-50 rounded-sm shadow-md shadow-gray-400 w-10/12 p-3 text-gray-800 text-center flex flex-col justify-center items-center gap-2;
+ }
