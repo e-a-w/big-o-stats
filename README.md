@@ -18,3 +18,5 @@ Installation:
 - Clone the repository
 - `npm install`
 - `npm run dev`
+
+<img width="1434" alt="screenshot" src="https://user-images.githubusercontent.com/23251909/184732310-c8f1bad5-0291-4867-a786-e452a475a189.png">
